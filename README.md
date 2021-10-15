@@ -23,10 +23,10 @@ for installation.
 
 
 # Installation Guide
-## MIP provides a fully automatic installer for easy installation.
+#### MIP provides a fully automatic installer for easy installation.
 **a. Download the package**
 ```
-git clone https://github.com/XXXX.git	
+git clone https://github.com/qdu-bioinfo/mip.git	
 ```
 
 **b. Install by installer**
