@@ -90,7 +90,7 @@ in which parameter “-T” assigns the profiling result of OTU table of multipl
 		OTU_1	OTU_2	OTU_3	…	OTU_M
 Sample1		100	200	0	…	50
 Sample2		0	300	600	…	100
-…	…		…	…	…	60
+…		…	…	…	…	60
 SampleN		50	80	0	…	200
 ```
 
