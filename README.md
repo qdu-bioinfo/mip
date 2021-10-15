@@ -9,7 +9,7 @@
 - [Software Requirement and Dependency](#software-requirement-and-dependency)
 - [Installation guide](#installation-guide)
 - [Basic Usage](#basic-usage)
-- [Batch Processing](#basic-processing)
+- [Batch Processing](#batch-processing)
 - [Example dataset](#example-dataset)
 
 # Introduction
@@ -87,11 +87,11 @@ PM-parse-mip -T samples.OTU.Abd -o samples.mip
 in which parameter “-T” assigns the profiling result of OTU table of multiple samples. The format of a OTU table:
 ```
 
-	OTU_1	OTU_2	OTU_3	…	OTU_M
-Sample1	100	200	0	…	50
-Sample2	0	300	600	…	100
-…	…	…	…	…	60
-SampleN	50	80	0	…	200
+		OTU_1	OTU_2	OTU_3	…	OTU_M
+Sample1		100	200	0	…	50
+Sample2		0	300	600	…	100
+…	…		…	…	…	60
+SampleN		50	80	0	…	200
 ```
 
 # Example Dataset
