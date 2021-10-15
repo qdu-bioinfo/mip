@@ -1,6 +1,6 @@
 ###MIP installer
 ###Bioinformatics Group, Qingdao University
-###Updated at Oct. 14, 2021
+###Updated at Oct. 15, 2021
 ###Updated by Xiaoquan Su, Gongchao Jing
 #!/bin/bash
 
@@ -23,6 +23,7 @@ echo -e "\n**Build Complete**"
 ###Plugin installation###
 echo -e "\n**Plugin Installation**"
 cp bin/PM-parse-mip $ParallelMETA/bin
+tar -xzvf mip_16s.tar.gz
 cp -rf mip_16s $ParallelMETA/databases
 
 ##Check database configuration##
