@@ -16,11 +16,11 @@
 Microbial Index of Pathogenic bacteria (MIP) is an easy-to-use bioinformatic package that calculates the quantitative microbial pathogenic risk. MIP assesses the disease risk to human from a microbiome sample and reports the quantitative indices from multiple aspects using a reference pathogen database and an artificially curated pathogen-disease interaction network. MIP works as a plug-in tools of Parallel-META 3, and supports 16S rRNA amplicon sequences as input.
 
 # Software Requirement and Dependency
-```
+
 MIP requires Parallel-META 3, please refer to 
 https://github.com/qibebt-bioinfo/parallel-meta#installation-guide
 for installation.
-```
+
 
 # Installation Guide
 ## MIP provides a fully automatic installer for easy installation.
@@ -40,13 +40,15 @@ The package should take less than 1 minute to install on a computer with the spe
 The example dataset could be found at “example” folder. Check the “example/Readme” for details about the demo run.
 
 #  Basic Usage
-With a input 16S rRNA amplicon sequence file, e.g. sample1.fasta:
+With a input 16S rRNA amplicon sequence file, e.g. sample1.fasta:   
+
+
 **a. Profiling by Parallel-META using MIP database**
 ```
 PM-parallel-meta -r sample1.fasta -D P -f F -o sample1.out
-
-The “sample1.out” folder is the profiling result.
 ```
+The “sample1.out” folder is the profiling result.
+
 
 **b. Parse out the microbial index of pathogenic bacteria**
 ```
@@ -64,6 +66,9 @@ sample1.mip.site.out: Targeted human organs or body sites (MIP LV3).
 
 #  Batch Processing
 MIP also supports the batch input of profiling results by the following alternative two forms (compatible with Parallel-META 3):
+
+
+
 **a. Sample list**
 ```
 PM-parse-mip -l samples.list -o samples.mip
@@ -72,7 +77,6 @@ PM-parse-mip -l samples.list -o samples.mip
 in which parameter “-l” assigns the file list of profiling results of multiple samples.
 The format of a sample list:
 ```
-
 Sample1	/home/data/sample1.out/classification.txt
 Sample2	/home/data/sample2.out/classification.txt
 ...	
