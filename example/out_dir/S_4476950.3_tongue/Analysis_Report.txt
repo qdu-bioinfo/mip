@@ -1,0 +1,19 @@
+Parallel-Meta Analysis Report
+Version: 3.6
+Reference database: pathogen (silva & pathogen)
+Input type : rRNA targeted sequences
+Input file : seqs/S_4476950.3_tongue.fa
+ASV denoising: Yes
+Chimera removal: Yes
+Sequence alignment threshold: 0.99
+rRNA sequence number: 3292
+Mapped rRNA sequence number: 3252
+ASV number: 130
+Alpha diversity (# of taxa):
+Kingdom	1
+Phylum	9
+Class	14
+Order	26
+Family	35
+Genus	50
+OTU	74

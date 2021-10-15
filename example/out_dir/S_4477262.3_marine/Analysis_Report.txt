@@ -1,0 +1,19 @@
+Parallel-Meta Analysis Report
+Version: 3.6
+Reference database: pathogen (silva & pathogen)
+Input type : rRNA targeted sequences
+Input file : seqs/S_4477262.3_marine.fa
+ASV denoising: Yes
+Chimera removal: Yes
+Sequence alignment threshold: 0.99
+rRNA sequence number: 3331
+Mapped rRNA sequence number: 2898
+ASV number: 477
+Alpha diversity (# of taxa):
+Kingdom	1
+Phylum	11
+Class	15
+Order	50
+Family	77
+Genus	126
+OTU	255

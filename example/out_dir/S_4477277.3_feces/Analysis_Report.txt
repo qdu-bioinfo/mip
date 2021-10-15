@@ -1,0 +1,19 @@
+Parallel-Meta Analysis Report
+Version: 3.6
+Reference database: pathogen (silva & pathogen)
+Input type : rRNA targeted sequences
+Input file : seqs/S_4477277.3_feces.fa
+ASV denoising: Yes
+Chimera removal: Yes
+Sequence alignment threshold: 0.99
+rRNA sequence number: 4194
+Mapped rRNA sequence number: 3850
+ASV number: 455
+Alpha diversity (# of taxa):
+Kingdom	1
+Phylum	6
+Class	10
+Order	13
+Family	24
+Genus	68
+OTU	138

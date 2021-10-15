@@ -1,0 +1,27 @@
+#Here we provide a demo dataset with 20 environment microbiome samples.
+#
+#File description
+#samples.list: Sample profile list
+#out.dir: Profiling results by Parallel-Meta 3.
+#
+#To run the demo, you can either
+#
+#sh Readme
+#
+#or
+#type the following commands.
+#
+#Commands:
+PM-parse-mip -l samples.list -o samples.mip
+#
+#
+#Output description
+#Five output results are producted in Current directory.
+#The output contains 5 files
+#1) sample1.mip.summary.out: The overall MIP;
+#2) sample1.mip.taxa.out: The relative abundance of species contributed to the overall MIP (MIP LV1);
+#3) sample1.mip.OTU.Abd.out: The relative abundance of reference OTUs contributed to the overall MIP (MIP LV1);
+#4) sample1.mip.infection.out: Human diseases associated with the identified pathogenic bacteria (MIP LV2);
+#5) sample1.mip.site.out: Targeted human organs or body sites (MIP LV3).
+#
+#This demo run should take about 1 minute on a recommended computer.

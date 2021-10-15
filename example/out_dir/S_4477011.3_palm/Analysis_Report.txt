@@ -1,0 +1,19 @@
+Parallel-Meta Analysis Report
+Version: 3.6
+Reference database: pathogen (silva & pathogen)
+Input type : rRNA targeted sequences
+Input file : seqs/S_4477011.3_palm.fa
+ASV denoising: Yes
+Chimera removal: Yes
+Sequence alignment threshold: 0.99
+rRNA sequence number: 3340
+Mapped rRNA sequence number: 3112
+ASV number: 705
+Alpha diversity (# of taxa):
+Kingdom	1
+Phylum	16
+Class	27
+Order	55
+Family	89
+Genus	178
+OTU	388
