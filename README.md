@@ -1,3 +1,17 @@
+# Microbial Index of Pathogenic bacteria (MIP)
+
+![Version](https://img.shields.io/badge/Version-1.00-brightgreen)
+![Release date](https://img.shields.io/badge/Release%20date-Oct.%2015%2C%202021-brightgreen)
+
+## Contents
+
+- [Introduction](#introduction)
+- [Software Requirement and Dependency](#software-requirement-and-dependency)
+- [Installation guide](#installation-guide)
+- [Basic Usage](#basic-usage)
+- [Batch Processing](#basic-processing)
+- [Example dataset](#example-dataset)
+
 # Introduction
 Microbial Index of Pathogenic bacteria (MIP) is an easy-to-use bioinformatic package that calculates the quantitative microbial pathogenic risk. MIP assesses the disease risk to human from a microbiome sample and reports the quantitative indices from multiple aspects using a reference pathogen database and an artificially curated pathogen-disease interaction network. MIP works as a plug-in tools of Parallel-META 3, and supports 16S rRNA amplicon sequences as input.
 
