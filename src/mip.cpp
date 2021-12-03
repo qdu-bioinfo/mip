@@ -99,6 +99,9 @@ int main(int argc, char * argv[]){
 	_mip_parser mip_parser;
 	vector <_mip> mips;
 	vector <string> sam_name;
+	
+	cout << "Pathogen analysis starts" << endl;
+	
 	switch (Mode){
 		case 0: {
 				sam_name.push_back("sample_1");
@@ -127,6 +130,8 @@ int main(int argc, char * argv[]){
 	mip_parser.Output_pathogen_site((Outprefix + ".site.out").c_str(), mips, sam_name);
 	mip_parser.Output_pathogen_infection((Outprefix + ".infection.out").c_str(), mips, sam_name);
 	mip_parser.Output_pathogen_otu((Outprefix + ".OTU.Abd.out").c_str(), mips, sam_name);
+	
+	cout << "Pathogen analysis finished" << endl;
 	
 	return 0;
 }
