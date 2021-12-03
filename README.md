@@ -1,7 +1,7 @@
 # Microbial Index of Pathogenic bacteria (MIP)
 
-![Version](https://img.shields.io/badge/Version-1.00-brightgreen)
-![Release date](https://img.shields.io/badge/Release%20date-Oct.%2015%2C%202021-brightgreen)
+![Version](https://img.shields.io/badge/Version-1.01-brightgreen)
+![Release date](https://img.shields.io/badge/Release%20date-Dec.%203%2C%202021-brightgreen)
 
 ## Contents
 
@@ -17,10 +17,9 @@ Microbial Index of Pathogenic bacteria (MIP) is an easy-to-use bioinformatic pac
 
 # Software Requirement and Dependency
 
-MIP requires Parallel-META 3, please refer to 
-https://github.com/qibebt-bioinfo/parallel-meta#installation-guide
+MIP requires Parallel-Meta-Suite, please refer to 
+https://github.com/qdu-bioinfo/parallel-meta-suite#installation-guide 
 for installation.
-
 
 # Installation Guide
 #### MIP provides a fully automatic installer for easy installation.
