@@ -12,9 +12,9 @@
 # type the following commands.
 # 
 # Commands:
-```
+
 PM-parse-mip -l samples.list -o samples.mip
-```
+
 #
 #
 # Output description
